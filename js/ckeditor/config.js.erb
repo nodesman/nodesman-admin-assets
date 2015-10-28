@@ -1,0 +1,15 @@
+/**
+ * @license Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.html or http://ckeditor.com/license
+ */
+//include before the ckeditor file
+function CKEDITOR_GETURL(resource) {
+    if (resource.match(/nodesman-admin-assets/)) {
+        return resource
+    }
+    var configUrl = '<%= asset_path('nodesman-admin-assets/js/ckeditor/ckeditor.js') %>';
+    var prefix = configUrl.split("/");
+    prefix.pop()
+    prefix = prefix.join('/')
+    return prefix + '/' + resource;
+}

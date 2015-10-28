@@ -1,0 +1,25 @@
+{
+  "name": "nodesman-admin-assets",
+  "authors": [
+    "Raj"
+  ],
+  "description": "Administration pages assets for my apps",
+  "main": [
+    "scss/main.scss",
+    "js/app.js",
+    "js/plugins.js"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "http://nodesman.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

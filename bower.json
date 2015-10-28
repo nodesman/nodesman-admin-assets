@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "homepage": "http://nodesman.com",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
